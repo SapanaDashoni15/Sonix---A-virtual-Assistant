@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+/* * {
+    padding : 100%;
+    margin: 100%;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+} */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./Assets/sonix_bg_body.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    position: relative;
+
+}
+
+.container {
+    background-color: rgba(210, 49, 103, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    position: absolute;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-family: "Silkscreen", sans-serif;
+    font-size:large;
+}
+
+button {
+    padding: 14px 19px;
+    border-radius: 10px;
+    border:none;
+    font-size: 20px;
+    transition: all 0.80s;
+
+
+}
+
+
+button:hover{
+    background-color: #81e06c;
+
+}
